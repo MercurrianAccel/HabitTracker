@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HabitTracker
 {
-    internal class DBHandler
+    public class DBHandler
     {
+        private static string connectionString = "";
     }
 }

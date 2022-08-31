@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ShowNewHabitPrompt();
+
+            ShowHabitMenu();
         }
+
+        static void ShowHabitMenu()
+        {
+            Console.WriteLine("");
+        }
+
+        static void ShowNewHabitPrompt()
+        {
+            Console.WriteLine();
+        }
+
     }
 }

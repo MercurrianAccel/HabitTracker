@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace HabitTracker
 {
-    internal class HabitHandler
+    public class HabitHandler
     {
+        public HabitHandler()
+        {
+
+        }
+
+        public void GenerateDefaultWaterHabit()
+        {
+            
+        }
+
+        private Habit Habit;
     }
 }
